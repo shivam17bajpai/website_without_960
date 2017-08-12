@@ -1,133 +1,135 @@
+* {
+    margin: 0;
 
-* { margin: 0;  
-	padding: 0; 
-	outline:0;}
+    outline: 0;
+}
 
 body {
-    
-    background: url('images/body-bg.gif'); 
-}
-#navigation ul li{
-	display: inline;
-}
-    
-h2 {font-size:10px; 
-	color:#f2a223; 
-	font-weight:bold;
+
+    background: url('../images/body-bg.gif');
 }
 
 
+h2 {
+    font-size: 10px;
+    color: #f2a223;
+    font-weight: bold;
+}
 
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
 
 .navigation {
-	background-color: #020106;
-	overflow:hidden;
-}
-.navigation a{
-	float:left;
-	color: #e7b038; 
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
+
+    margin-left: 100px;
 }
 
-.navigation a:hover{
-	text-decoration: underline;
-	color:#d91d2a;
-}
-.top{
-	margin-left: 100px;
-
+#navigation ul li {
+    display: inline;
 }
 
-.movie-image { float:left; 
-	width:400px; height:250px; 
-	position:relative; }
-.movie-image p{font-size:20px; 
-	color:#F1948A; font-weight:bold;
-	font-family: sans-serif;
-}
+.navigation a {
 
-.movie-image img { width:152px;
-    height:214px; }
-
-.movie-image a { float: left; display: inline; 
-	width:152px; height:214px; position: 
-	relative; z-index: 2; }
-
-
-.rating .stars { float:left; width:60px;
-    height:11px; 
-    background:url('images/stars.gif') no-repeat 0 0; 
-    margin-left:2px;}
-
-
-.hero {
-	height: 300px;
-	background-size: 1500px 300px;
+    color: #e7b038;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     font-size: 20px;
-  	background-image: url("images/h.jpeg");
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+    color: #d91d2a;
+}
+
+/* --------------------------------------
+     movie images
+   -------------------------------------- */
+.movie-image {
+    float: left;
+    width: 400px;
+    height: 250px;
+    padding: 2px 5px;
+}
+
+.movie-image a:hover {
+    transform: scale(1.30);
+}
+
+
+.movie-image p {
+    font-size: 20px;
+    color: #F1948A;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.movie-image img {
+    width: 152px;
+    height: 214px;
+}
+
+.movie-image a {
+    float: left;
+}
+.rating .stars {
+    float: left;
+    width: 60px;
+    height: 11px;
+    background: url('../images/stars.gif') no-repeat 0 0;
+    margin-left: 2px;
+}
+/* --------------------------------------
+       Hero unit of 1st page
+   -------------------------------------- */
+.hero {
+    height: 320px;
+    background-size: 1500px 300px;
+    font-size: 20px;
+    background-image: url("../images/h.jpeg");
     background-repeat: no-repeat;
     text-align: : center;
-
 }
-.hero h3{text-align: center;
-	margin-top: px;
-	color:white;
+.hero h3 {
+    text-align: center;
+    color: white;
 }
 
+/* --------------------------------------
+       Hero unit of 2nd page
+   -------------------------------------- */
 
 .rhero {
-	height: 450px;
-	
-    background-size: 1000px 450px;
+    height: 450px;
+    background-size: 1320px 400px;
     font-size: 20px;
-  	background-image: url("images/review.jpg");
+    background-image: url("../images/review.jpg");
     background-repeat: no-repeat;
     text-align: : center;
-
 }
-/*FOOTER*/
+/* --------------------------------------
+     footer
+   -------------------------------------- */
 
+.foot {
 
-.foot{
-     
-	list-style-type: none;
-	text-align: right;
-	border-bottom: 100px;
-	background-color: ;
-   
-
+    text-align: center;
+    font-size: 30px;
+    display: inline;
 }
+.foot li {
 
-.f .foot{
-	margin-bottom: 0px;
+    display: inline;
 }
+.foot i:hover {
 
-
-.foot li{
-
-	display: inline;
-	width:80%;
+    color: red;
 }
-
-.foot i{
-	font-size: 30px;
-
-	color: ;
-}
-
-.foot i:hover{
-
-	color:red;
-}
-
-h4 { font-size:14px; color:cyan; font-weight:bold; }
- footer {
+footer {
     padding: 1em;
     color: white;
-    background-color:black ;
+    background-color: black;
     clear: left;
     text-align: center;
 }
